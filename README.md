@@ -71,10 +71,6 @@
   - Scope of documents referenced.
   - Complexity of questions handled.
 
-## Project Plan
-- **Timeline**: Develop milestones for design, implementation, and testing.
-- **Resource Allocation**: Identify team members, technology stack, and budget.
-
 ## Document Management
 1. **Essential Documents**:
    - Study Protocol
