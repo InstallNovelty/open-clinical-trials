@@ -1,92 +1,106 @@
-Potential idea -  Large Language Model (LLM) chatbot assisting clinical trial sites with retrieving essential documents for key study tasks.
+# Chatbot for Clinical Trial Support
 
----
+## Key Functions
+1. **Study Protocol Inquiries**
+   - Detailed explanations of study objectives, design, and methodology.
+   - Clarifications on protocol changes.
 
-## 1. Answer Questions About the Study Protocol
-- **Objective**: 
-  - Provide detailed explanations of the study's objectives, design, and methodology.
-- **Updates**: 
-  - Clarify any changes or updates to the protocol.
+2. **Participant Eligibility Information**
+   - Specific inclusion and exclusion criteria.
+   - Answers regarding age, health status, and other factors.
 
----
+3. **Informed Consent Procedures**
+   - Explanation of the informed consent process and its significance.
+   - Details on participant expectations during consent.
 
-## 2. Provide Information on Eligibility Criteria for Participants
-- **Criteria**: 
-  - Outline specific inclusion and exclusion criteria for potential participants.
-- **Inquiries**: 
-  - Address questions regarding age, health status, and other relevant factors.
+4. **Data Collection and Reporting Guidance**
+   - Description of data collection methods and tools.
+   - Instructions for accurate and timely data reporting.
 
----
-
-## 3. Clarify Procedures for Informed Consent
-- **Process**: 
-  - Explain the informed consent process and its importance.
-- **Expectations**: 
-  - Provide details on what participants can expect during the consent process.
-
----
-
-## 4. Offer Guidance on Data Collection and Reporting
-- **Methods**: 
-  - Describe the methods and tools used for data collection.
-- **Instructions**: 
-  - Provide instructions on how to report data accurately and on time.
-
----
-
-## 5. Assist with Regulatory Compliance Questions
-- **Ethics**: 
-  - Answer questions related to ethical guidelines and regulatory requirements.
-- **Compliance**: 
-  - Provide information on how to maintain compliance throughout the study.
-
----
+5. **Regulatory Compliance Assistance**
+   - Answers to ethical guidelines and regulatory requirements.
+   - Information on maintaining compliance throughout the study.
 
 ## Use Cases
+1. **Eligibility Criteria**
+   - **Importance**: High
+   - **Frequency**: High
 
-### 1. Eligibility Criteria for Participants
-- **Importance**: High  
-  Ensures that only qualified participants are enrolled, which is critical for the study's integrity.
-- **Frequency of Inquiries**: High  
-  Common questions from both potential participants and study staff.
+2. **Informed Consent**
+   - **Importance**: High
+   - **Frequency**: Medium
 
----
+3. **Study Protocol**
+   - **Importance**: Medium
+   - **Frequency**: Medium
 
-### 2. Informed Consent Procedures
-- **Importance**: High  
-  Essential for ethical compliance and participant understanding.
-- **Frequency of Inquiries**: Medium  
-  Important but may not be asked as frequently as eligibility questions.
+4. **Data Collection Guidance**
+   - **Importance**: Medium
+   - **Frequency**: Low to Medium
 
----
+5. **Regulatory Compliance**
+   - **Importance**: Medium to Low
+   - **Frequency**: Low
 
-### 3. Study Protocol Questions
-- **Importance**: Medium  
-  Important for understanding the study but may be less frequently asked than eligibility and consent questions.
-- **Frequency of Inquiries**: Medium  
-  Questions may arise during different phases of the study.
+## Target Audience
+- **User Profiles**:
+  - Site coordinators
+  - Principal investigators
+  - Clinical research staff
+  - Regulatory affairs personnel
 
----
+## Goals and Objectives
+- **Goals**:
+  - Reduce time on repetitive inquiries.
+  - Improve information accuracy for site staff.
+  - Enhance user satisfaction.
 
-### 4. Data Collection and Reporting Guidance
-- **Importance**: Medium  
-  Critical for accurate data management but may be more relevant to study staff than participants.
-- **Frequency of Inquiries**: Low to Medium  
-  Questions may arise primarily during data collection phases.
+- **Success Metrics**:
+  - User engagement and interaction count.
+  - Response accuracy percentage.
+  - User satisfaction ratings.
 
----
+## Functional Requirements
+- **Key Features**:
+  - Natural language processing capabilities.
+  - Comprehensive knowledge base.
+  - Contextual awareness for conversation flow.
+  - User-friendly interface.
 
-### 5. Regulatory Compliance Questions
-- **Importance**: Medium to Low  
-  Important for maintaining compliance but may not be frequently asked by participants.
-- **Frequency of Inquiries**: Low  
-  Typically addressed by study coordinators or compliance officers.
+- **Limitations**:
+  - Scope of documents referenced.
+  - Complexity of questions handled.
 
----
+## Project Plan
+- **Timeline**: Develop milestones for design, implementation, and testing.
+- **Resource Allocation**: Identify team members, technology stack, and budget.
 
-## Contributing
-If you have suggestions for improving this FAQ or would like to contribute, please open an issue or submit a pull request.
+## Document Management
+1. **Essential Documents**:
+   - Study Protocol
+   - Informed Consent Forms
+   - Investigator Brochure
+   - Case Report Forms
+   - Regulatory Documents
+   - Monitoring Plans
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+2. **Document Organization**:
+   - Gather digital copies and organize by category.
+   - Ensure document completeness and version control.
 
+3. **Knowledge Base Development**:
+   - Structure information for easy reference.
+   - Create FAQs based on essential documents.
+
+## Development Framework
+1. **Select an LLM**: Research and choose a suitable pre-trained model.
+2. **Development Environment**: Set up Python, virtual environments, and required libraries.
+3. **Chatbot Interface**: Choose a web framework (Flask/FastAPI) and consider frontend technologies.
+4. **Integration Planning**: Plan for API and database integration.
+5. **Architecture Design**: Outline system architecture and data flow.
+
+## Preprocessing Documents
+1. **Text Extraction**: Use appropriate tools for different document formats.
+2. **Data Cleaning**: Remove irrelevant information and fix formatting issues.
+3. **Content Organization**: Segment and structure the cleaned text.
+4. **Knowledge Base Creation**: Build a knowledge base for quick access to information.
